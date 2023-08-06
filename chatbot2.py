@@ -6,7 +6,7 @@ import panel as pn
 from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv()) # read local .env file
 
-openai.api_key  = "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"
+openai.api_key  = "sk-"
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
     messages = [{"role": "user", "content": prompt}]
