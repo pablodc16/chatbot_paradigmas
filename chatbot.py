@@ -58,7 +58,7 @@ def CustomChatGPT(user_input):
     # Retornamos solo la respuesta del chat GTP para que la visualice el usuario
     return ChatGPT_reply
 
-# Utilizamos una libreria grafica para obtener y mostrar los mensajes al usuario por medio de una página web
+# Utilizamos una librería gráfica para obtener y mostrar los mensajes al usuario por medio de una página web
 demo = gradio.Interface(fn=CustomChatGPT, inputs = "text", outputs = "text", title = "Nuestro chatbot!")
 
 # Habilitamos la opción de compartir el link de la página web, así cualquiera lo puede usar
