@@ -3,7 +3,7 @@
 import openai
 import gradio
 
-openai.api_key = "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"
+openai.api_key = ""
 
 # El contexto es la información de la empresa que usará chat GPT para responder a las preguntas del cliente.
 contexto = "You are OrderBot, an automated service to collect orders for a pizza restaurant. \
